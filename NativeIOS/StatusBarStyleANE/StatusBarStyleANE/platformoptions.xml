@@ -1,0 +1,7 @@
+<platform xmlns="http://ns.adobe.com/air/extension/3.9">
+    <description >StatusBarStyleANE</description> 
+    <copyright>2013 kazutoyo</copyright> 
+    <linkerOptions>
+    </linkerOptions> 
+</platform>
+

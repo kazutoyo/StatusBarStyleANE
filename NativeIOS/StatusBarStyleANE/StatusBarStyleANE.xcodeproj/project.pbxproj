@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F206F381850725800ECA7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F371850725800ECA7D5 /* Foundation.framework */; };
+		3F206F3A1850725800ECA7D5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F391850725800ECA7D5 /* CoreFoundation.framework */; };
+		3F206F3C1850725800ECA7D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F3B1850725800ECA7D5 /* UIKit.framework */; };
+		3F206F3E1850725800ECA7D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F3D1850725800ECA7D5 /* MobileCoreServices.framework */; };
+		3F206F401850725800ECA7D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F3F1850725800ECA7D5 /* CoreGraphics.framework */; };
+		3F206F421850725800ECA7D5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F411850725800ECA7D5 /* SystemConfiguration.framework */; };
+		3F206F441850725800ECA7D5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F431850725800ECA7D5 /* AudioToolbox.framework */; };
+		3F206F461850725800ECA7D5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F451850725800ECA7D5 /* CFNetwork.framework */; };
+		3F206F481850725800ECA7D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F471850725800ECA7D5 /* QuartzCore.framework */; };
+		3F206F4A1850725800ECA7D5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F491850725800ECA7D5 /* OpenGLES.framework */; };
+		3F206F4C1850725800ECA7D5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F4B1850725800ECA7D5 /* CoreLocation.framework */; };
+		3F206F4E1850725800ECA7D5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F4D1850725800ECA7D5 /* CoreMedia.framework */; };
+		3F206F501850725800ECA7D5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F4F1850725800ECA7D5 /* CoreVideo.framework */; };
+		3F206F521850725800ECA7D5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F511850725800ECA7D5 /* AVFoundation.framework */; };
+		3F206F541850725800ECA7D5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F206F531850725800ECA7D5 /* Security.framework */; };
+		3F206F5A1850725800ECA7D5 /* StatusBarStyleANE.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F206F591850725800ECA7D5 /* StatusBarStyleANE.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F206F341850725800ECA7D5 /* libStatusBarStyleANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStatusBarStyleANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F206F371850725800ECA7D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F206F391850725800ECA7D5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3F206F3B1850725800ECA7D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F206F3D1850725800ECA7D5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3F206F3F1850725800ECA7D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F206F411850725800ECA7D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3F206F431850725800ECA7D5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3F206F451850725800ECA7D5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3F206F471850725800ECA7D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F206F491850725800ECA7D5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3F206F4B1850725800ECA7D5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F206F4D1850725800ECA7D5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3F206F4F1850725800ECA7D5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3F206F511850725800ECA7D5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F206F531850725800ECA7D5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3F206F571850725800ECA7D5 /* StatusBarStyleANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StatusBarStyleANE-Prefix.pch"; sourceTree = "<group>"; };
+		3F206F581850725800ECA7D5 /* StatusBarStyleANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusBarStyleANE.h; sourceTree = "<group>"; };
+		3F206F591850725800ECA7D5 /* StatusBarStyleANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarStyleANE.m; sourceTree = "<group>"; };
+		3F206F5B1850725800ECA7D5 /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F206F311850725700ECA7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F206F4E1850725800ECA7D5 /* CoreMedia.framework in Frameworks */,
+				3F206F541850725800ECA7D5 /* Security.framework in Frameworks */,
+				3F206F3A1850725800ECA7D5 /* CoreFoundation.framework in Frameworks */,
+				3F206F4C1850725800ECA7D5 /* CoreLocation.framework in Frameworks */,
+				3F206F3E1850725800ECA7D5 /* MobileCoreServices.framework in Frameworks */,
+				3F206F501850725800ECA7D5 /* CoreVideo.framework in Frameworks */,
+				3F206F461850725800ECA7D5 /* CFNetwork.framework in Frameworks */,
+				3F206F3C1850725800ECA7D5 /* UIKit.framework in Frameworks */,
+				3F206F401850725800ECA7D5 /* CoreGraphics.framework in Frameworks */,
+				3F206F4A1850725800ECA7D5 /* OpenGLES.framework in Frameworks */,
+				3F206F441850725800ECA7D5 /* AudioToolbox.framework in Frameworks */,
+				3F206F421850725800ECA7D5 /* SystemConfiguration.framework in Frameworks */,
+				3F206F381850725800ECA7D5 /* Foundation.framework in Frameworks */,
+				3F206F521850725800ECA7D5 /* AVFoundation.framework in Frameworks */,
+				3F206F481850725800ECA7D5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F206F2B1850725700ECA7D5 = {
+			isa = PBXGroup;
+			children = (
+				3F206F551850725800ECA7D5 /* StatusBarStyleANE */,
+				3F206F361850725800ECA7D5 /* Frameworks */,
+				3F206F351850725800ECA7D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F206F351850725800ECA7D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F206F341850725800ECA7D5 /* libStatusBarStyleANE.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F206F361850725800ECA7D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F206F371850725800ECA7D5 /* Foundation.framework */,
+				3F206F391850725800ECA7D5 /* CoreFoundation.framework */,
+				3F206F3B1850725800ECA7D5 /* UIKit.framework */,
+				3F206F3D1850725800ECA7D5 /* MobileCoreServices.framework */,
+				3F206F3F1850725800ECA7D5 /* CoreGraphics.framework */,
+				3F206F411850725800ECA7D5 /* SystemConfiguration.framework */,
+				3F206F431850725800ECA7D5 /* AudioToolbox.framework */,
+				3F206F451850725800ECA7D5 /* CFNetwork.framework */,
+				3F206F471850725800ECA7D5 /* QuartzCore.framework */,
+				3F206F491850725800ECA7D5 /* OpenGLES.framework */,
+				3F206F4B1850725800ECA7D5 /* CoreLocation.framework */,
+				3F206F4D1850725800ECA7D5 /* CoreMedia.framework */,
+				3F206F4F1850725800ECA7D5 /* CoreVideo.framework */,
+				3F206F511850725800ECA7D5 /* AVFoundation.framework */,
+				3F206F531850725800ECA7D5 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F206F551850725800ECA7D5 /* StatusBarStyleANE */ = {
+			isa = PBXGroup;
+			children = (
+				3F206F581850725800ECA7D5 /* StatusBarStyleANE.h */,
+				3F206F591850725800ECA7D5 /* StatusBarStyleANE.m */,
+				3F206F561850725800ECA7D5 /* Supporting Files */,
+			);
+			path = StatusBarStyleANE;
+			sourceTree = "<group>";
+		};
+		3F206F561850725800ECA7D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F206F571850725800ECA7D5 /* StatusBarStyleANE-Prefix.pch */,
+				3F206F5B1850725800ECA7D5 /* platformoptions.xml */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F206F321850725700ECA7D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F206F331850725700ECA7D5 /* StatusBarStyleANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F206F5E1850725800ECA7D5 /* Build configuration list for PBXNativeTarget "StatusBarStyleANE" */;
+			buildPhases = (
+				3F206F301850725700ECA7D5 /* Sources */,
+				3F206F311850725700ECA7D5 /* Frameworks */,
+				3F206F321850725700ECA7D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatusBarStyleANE;
+			productName = StatusBarStyleANE;
+			productReference = 3F206F341850725800ECA7D5 /* libStatusBarStyleANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F206F2C1850725700ECA7D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 3F206F2F1850725700ECA7D5 /* Build configuration list for PBXProject "StatusBarStyleANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F206F2B1850725700ECA7D5;
+			productRefGroup = 3F206F351850725800ECA7D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F206F331850725700ECA7D5 /* StatusBarStyleANE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F206F301850725700ECA7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F206F5A1850725800ECA7D5 /* StatusBarStyleANE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F206F5C1850725800ECA7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/kazutoyo/flexsdk/AdobeAIRSDK3.9/include/;
+			};
+			name = Debug;
+		};
+		3F206F5D1850725800ECA7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/kazutoyo/flexsdk/AdobeAIRSDK3.9/include/;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F206F5F1850725800ECA7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/StatusBarStyleANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBarStyleANE/StatusBarStyleANE-Prefix.pch";
+				GCC_VERSION = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3F206F601850725800ECA7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/StatusBarStyleANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBarStyleANE/StatusBarStyleANE-Prefix.pch";
+				GCC_VERSION = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F206F2F1850725700ECA7D5 /* Build configuration list for PBXProject "StatusBarStyleANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F206F5C1850725800ECA7D5 /* Debug */,
+				3F206F5D1850725800ECA7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F206F5E1850725800ECA7D5 /* Build configuration list for PBXNativeTarget "StatusBarStyleANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F206F5F1850725800ECA7D5 /* Debug */,
+				3F206F601850725800ECA7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F206F2C1850725700ECA7D5 /* Project object */;
+}
