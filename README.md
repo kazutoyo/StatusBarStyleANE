@@ -12,3 +12,9 @@ This Native Extension require iOS7+ And Adobe AIR 3.9+
 		// Set Light Color
 		StatusBarStyleANE.getInstance().setStatusBarStyle(StatusBarStyleANE.STATUS_BAR_STYLE_LIGHT_CONTENT);
 	}
+
+License
+------
+This Project made available under the MIT License.
+
+Copyright (C) 2013 Kazutoyo Tokai
